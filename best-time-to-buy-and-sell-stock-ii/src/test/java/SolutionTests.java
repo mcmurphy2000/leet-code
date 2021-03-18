@@ -19,7 +19,7 @@ public class SolutionTests {
         int[] prices = {1,2,3,4,5};
         int expected = 4;
 
-        assertEquals(expected, tested.maxProfit(prices));
+            assertEquals(expected, tested.maxProfit(prices));
     }
 
     @Test
