@@ -33,6 +33,7 @@ public class SolutionTests {
          */
         TreeNode root = new TreeNode(-1);
         int[] preorder = {-1};
+
         int[] inorder = {-1};
 
         assertEquals(root, tested.buildTree(preorder, inorder));
